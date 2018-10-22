@@ -1,0 +1,17 @@
+<!-- <h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p> -->
+
+<div class="content">
+<h1>Stupid Coaching</h1>
+	<div class="box">
+		<h3><%= @question%></h3>
+		<p>- You</p>
+	</div>
+	<div class="box">
+		<h3><%= @answer%></h3>
+		<p>- Your coach</p>
+	</div>
+</div>
+
+
+<%= link_to "Ask another question", ask_path, class: "link" %>
